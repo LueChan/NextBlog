@@ -9,10 +9,10 @@ export const Hero = () => {
      {/* <!-- ====== Hero Section Start --> */}
      <div
       id="home"
-      className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
+      className="relative overflow-hidden bg-black pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center bg-black">
+        <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4">
             <div
               className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
