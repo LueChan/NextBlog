@@ -23,11 +23,11 @@ const CONFIG = {
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
-  // STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
-  // STARTER_NAV_BUTTON_1_URL: '/signin',
+  STARTER_NAV_BUTTON_1_TEXT: '',
+  STARTER_NAV_BUTTON_1_URL: '',
 
-  // STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
-  // STARTER_NAV_BUTTON_2_URL: '/signup',
+  STARTER_NAV_BUTTON_2_TEXT: '',
+  STARTER_NAV_BUTTON_2_URL: '',
   
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
@@ -56,7 +56,7 @@ const CONFIG = {
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
   // 首页ABOUT区块
-  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
+  STARTER_ABOUT_ENABLE: false, // ABOUT区块开关
   STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
   STARTER_ABOUT_TEXT: 'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
   STARTER_ABOUT_BUTTON_TEXT: '了解更多',
@@ -230,7 +230,7 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
