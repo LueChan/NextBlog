@@ -31,7 +31,7 @@ const CONFIG = {
   
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
+  STARTER_FEATURE_TITLE: '', // 特性
   STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
   STARTER_FEATURE_TEXT_2: 'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
 
@@ -204,7 +204,7 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我的博客',
+  STARTER_BLOG_TITLE: '',
   STARTER_BLOG_COUNT: 6, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: '最近的文章',
   STARTER_BLOG_TEXT_2: '这里会发布一些关于HarmonyOS的最新动态，以及新特性',
