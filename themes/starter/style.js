@@ -80,6 +80,11 @@ const Style = () => {
     color: rgb(17 25 40 / var(--tw-text-opacity));
   }
   
+  #theme-starter .bg-primary{
+    --tw-text-opacity: 1;
+    color: rgb(17 25 40 / var(--tw-text-opacity));
+  }
+  
   #theme-starter .sticky .loginBtn:hover{
     --tw-text-opacity: 1;
     color: rgb(17 25 40 / var(--tw-text-opacity));
