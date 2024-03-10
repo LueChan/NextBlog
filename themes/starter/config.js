@@ -4,8 +4,8 @@
 const CONFIG = {
 
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: 'https://pic.imgdb.cn/item/65edee579f345e8d03632962.webp', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: 'https://pic.imgdb.cn/item/65edee9d9f345e8d03641196.webp', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  STARTER_LOGO: 'https://pic.imgdb.cn/item/65edf0059f345e8d0368d49a.webp', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE: 'https://pic.imgdb.cn/item/65edf0059f345e8d0368d502.webp', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
