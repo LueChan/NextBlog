@@ -12,7 +12,7 @@ export const Hero = () => {
       className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
       <div className="container">
-        <div className="-mx-4 flex flex-wrap items-center">
+        <div className="-mx-4 flex flex-wrap items-center bg-black">
           <div className="w-full px-4">
             <div
               className="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
