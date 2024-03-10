@@ -12,6 +12,7 @@
 import { useRouter } from 'next/router'
 import { isBrowser } from '@/lib/utils'
 import { siteConfig } from '@/lib/config'
+import { useGlobal } from '@/lib/global'
 import CONFIG from './config'
 import NotionPage from '@/components/NotionPage'
 import Loading from '@/components/Loading'
