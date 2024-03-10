@@ -51,9 +51,9 @@ const LayoutBase = (props) => {
   const { children } = props
 
   // 加载wow动画
-  useEffect(() => {
-    loadWowJS()
-  }, [])
+  // useEffect(() => {
+  //   loadWowJS()
+  // }, [])
 
   return <div id='theme-starter' className={`${siteConfig('FONT_STYLE')} min-h-screen flex flex-col dark:bg-[#212b36] scroll-smooth`}>
             <Style/>
