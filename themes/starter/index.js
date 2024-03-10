@@ -134,7 +134,26 @@ const LayoutSlug = (props) => {
     </>
 }
 
-const LayoutSearch = (props) => <></>
+/**
+ * 搜索页
+ */
+const LayoutSearch = props => {
+  const { keyword } = props
+  const router = useRouter()
+  useEffect(() => {
+    if (isBrowser) {
+      replaceSearchResult({
+        doms: document.getElementById('posts-wrapper'),
+        search: keyword,
+        target: {
+          element: 'span',
+          className: 'text-red-500 border-b border-dashed'
+        }
+      })
+    }
+  }, [router])
+  return <LayoutPostList {...props} />
+}
 
 /**
  * 文章归档
@@ -193,7 +212,40 @@ const Layout404 = (props) => {
     </>
 }
 
-const LayoutCategoryIndex = (props) => <></>
+/**
+ * 分类列表
+ * @param {*} props
+            * @returns
+            */
+const LayoutCategoryIndex = (props) => {
+  const { locale } = useGlobal()
+  const { categoryOptions } = props
+  return (
+    <>
+      <div className='bg-white dark:bg-gray-700 px-10 py-10 shadow'>
+        <div className='dark:text-gray-200 mb-5'>
+          <i className='mr-4 fas fa-th' />{locale.COMMON.CATEGORY}:
+        </div>
+        <div id='category-list' className='duration-200 flex flex-wrap'>
+          {categoryOptions?.map(category => {
+            return (
+              <Link
+                key={category.name}
+                href={`/category/${category.name}`}
+                passHref
+                legacyBehavior>
+                <div
+                  className={'hover:text-black dark:hover:text-white dark:text-gray-300 dark:hover:bg-gray-600 px-5 cursor-pointer py-2 hover:bg-gray-100'}>
+                  <i className='mr-4 fas fa-folder' />{category.name}({category.count})
+                </div>
+              </Link>
+            )
+          })}
+        </div>
+      </div>
+    </>
+  )
+}
 const LayoutPostList = (props) => <></>
 const LayoutTagIndex = (props) => <></>
 
