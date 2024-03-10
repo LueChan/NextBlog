@@ -11,8 +11,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  STARTER_HERO_TITLE_1: '深入浅出HarmonyOS应用开发', // 英雄区文字
+  STARTER_HERO_TITLE_2: '写给有移动应用开发经验的开发者', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
@@ -23,10 +23,10 @@ const CONFIG = {
   STARTER_HERO_PREVIEW_IMAGE: 'https://pic.imgdb.cn/item/65edc34a9f345e8d035f6223.jpg', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
-  STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
-  STARTER_NAV_BUTTON_1_URL: '/signin',
+  // STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
+  // STARTER_NAV_BUTTON_1_URL: '/signin',
 
-  STARTER_NAV_BUTTON_2_TEXT: 'RSS',
+  STARTER_NAV_BUTTON_2_TEXT: '订阅',
   STARTER_NAV_BUTTON_2_URL: 'https://www.luechan.com/rss/feed.xml',
   
   // 特性区块
