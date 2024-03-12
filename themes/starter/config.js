@@ -28,8 +28,8 @@ const CONFIG = {
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '', // 特性
-  STARTER_FEATURE_TEXT_1: '关键特性分类', // 特性
-  STARTER_FEATURE_TEXT_2: '从ArkTS、ArkUI、进阶、DFX几方面介绍应用开发', // 特性
+  STARTER_FEATURE_TEXT_1: '关键特性', // 特性
+  STARTER_FEATURE_TEXT_2: '从ArkTS、ArkUI、进阶、DFX几方面介绍鸿蒙应用开发', // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'ArkTS', // 特性1
   STARTER_FEATURE_1_TEXT_1: 'JS是TS的子集，TS是ArkTS的子集', // 特性1
@@ -58,7 +58,7 @@ const CONFIG = {
   STARTER_BLOG_TEXT_1: '最新文章',
   STARTER_BLOG_TEXT_2: '一些关于HarmonyOS的系列文章、开发动态等',
 
-  STARTER_FOOTER_SLOGAN: 'LueChan(略馋)，是很久之前养的一只猫',
+  STARTER_FOOTER_SLOGAN: 'LueChan(略馋)，是以前养的一只猫，这家伙有点馋~',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
