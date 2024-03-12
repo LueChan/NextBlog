@@ -12,7 +12,7 @@ const CONFIG = {
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: '深入浅出HarmonyOS应用开发', // 英雄区文字
-  STARTER_HERO_TITLE_2: '写给有移动应用开发经验的开发者', // 英雄区文字
+  STARTER_HERO_TITLE_2: '写给有移动应用开发经验的从业者', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
@@ -32,26 +32,26 @@ const CONFIG = {
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
   STARTER_FEATURE_TITLE: '', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
-  STARTER_FEATURE_TEXT_2: 'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+  STARTER_FEATURE_TEXT_1: 'HarmonyOS主要分类', // 特性
+  STARTER_FEATURE_TEXT_2: '从ArkTS、ArkUI、进阶、DFX几方面介绍应用开发', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'ArkTS', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'js是TS的子集，TS是ArkTS的子集', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'ArkUI', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '常用容器组件、List组件、Grid组件等', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL: 'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '进阶之路', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '数据库、网络、三方库、Preferenes等', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'DFX', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '性能、功耗', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
@@ -206,8 +206,8 @@ const CONFIG = {
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '',
   STARTER_BLOG_COUNT: 6, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的文章',
-  STARTER_BLOG_TEXT_2: '这里会发布一些关于HarmonyOS的最新动态，以及新特性',
+  STARTER_BLOG_TEXT_1: '《深入浅出HarmonyOS应用开发》系列文章',
+  STARTER_BLOG_TEXT_2: '这里会发布一些关于HarmonyOS的开发动态，文章总结',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关
@@ -264,7 +264,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: 'LueChan(略馋)，是很久之前养的一只猫',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
