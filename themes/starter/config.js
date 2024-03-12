@@ -36,7 +36,7 @@ const CONFIG = {
   STARTER_FEATURE_TEXT_2: '从ArkTS、ArkUI、进阶、DFX几方面介绍应用开发', // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'ArkTS', // 特性1
-  STARTER_FEATURE_1_TEXT_1: 'js是TS的子集，TS是ArkTS的子集', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'JS是TS的子集，TS是ArkTS的子集', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
 
@@ -50,8 +50,8 @@ const CONFIG = {
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: 'DFX', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '性能、功耗', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'DFX能力', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '性能、功耗、一多、运维等', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
@@ -206,8 +206,8 @@ const CONFIG = {
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '',
   STARTER_BLOG_COUNT: 6, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '《深入浅出HarmonyOS应用开发》系列文章',
-  STARTER_BLOG_TEXT_2: '这里会发布一些关于HarmonyOS的开发动态，文章总结',
+  STARTER_BLOG_TEXT_1: '深入浅出HarmonyOS应用开发系列文章',
+  STARTER_BLOG_TEXT_2: '一些关于HarmonyOS的系列文章、开发动态等',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关
