@@ -58,7 +58,7 @@ const CONFIG = {
   STARTER_BLOG_TEXT_1: '最新文章',
   STARTER_BLOG_TEXT_2: '一些关于HarmonyOS的系列文章、开发动态等',
 
-  STARTER_FOOTER_SLOGAN: 'LueChan|略馋，曾经养过的一只馋猫~',
+  STARTER_FOOTER_SLOGAN: '略馋，曾经养过的一只猫',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
@@ -88,7 +88,7 @@ const CONFIG = {
     }
   ],
 
-  // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
   // STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
   // STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
