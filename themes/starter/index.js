@@ -229,7 +229,7 @@ const LayoutSearch = props => {
   return (
         <div className='grow mt-20'>
             <div className="container mx-auto">
-            <Banner title='搜索' description='输入关键词检索站内文章'/>
+            <Banner title='搜索' description='输入关键词检索站内文章名称'/>
             {!currentSearch
               ? <SearchNav {...props} />
               : <div id="posts-wrapper"> {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}  </div>}
