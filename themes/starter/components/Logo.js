@@ -50,7 +50,7 @@ export const Logo = ({ white }) => {
                 }}
                 src={logo}
                 alt="logo"
-                className="header-logo w-full mr-4"
+                className="header-logo w-full mr-2"
             />}
             {/* logo文字 */}
             <span onClick={() => { router.push('/') }} className={`${logoTextColor} dark:text-white py-1.5 header-logo-text whitespace-nowrap text-2xl font-semibold`}>
