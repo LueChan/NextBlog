@@ -38,6 +38,13 @@ import { SignInForm } from './components/SignInForm'
 import { SignUpForm } from './components/SignUpForm'
 import Link from 'next/link'
 import { loadWowJS } from '@/lib/wow'
+import Card from './components/Card'
+import SearchNav from './components/SearchNav'
+import BlogPostListPage from './components/BlogPostListPage'
+
+// 主题全局状态
+const ThemeGlobalHexo = createContext()
+export const useHexoGlobal = () => useContext(ThemeGlobalHexo)
 
 /**
  * 布局框架
