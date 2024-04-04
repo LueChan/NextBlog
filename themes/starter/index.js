@@ -234,7 +234,7 @@ const LayoutCategoryIndex = props => {
   const { locale } = useGlobal()
   return (
         <div className='grow mt-20'>
-          <div className="container mx-auto">
+          <div className="container min-h-screen mx-auto">
               <Banner title='分类' description='按照文章的Category分类'/>
               <div className="dark:text-gray-200 mb-5 mx-3">
                     <i className="mr-4 fas fa-th" />  {locale.COMMON.CATEGORY}:
@@ -265,7 +265,7 @@ const LayoutTagIndex = props => {
   const { locale } = useGlobal()
   return (
         <div className='grow mt-20'>
-            <div className="container min-h-full mx-auto">
+            <div className="container min-h-screen mx-auto">
             <Banner title='标签' description='按照文章的Tag分类'/>
                 <div className="dark:text-gray-200 mb-5 ml-4">
                     <i className="mr-4 fas fa-tag" /> {locale.COMMON.TAGS}:
