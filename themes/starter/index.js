@@ -41,7 +41,7 @@ import { loadWowJS } from '@/lib/wow'
 import Card from './components/Card'
 import SearchNav from './components/SearchNav'
 import BlogPostListPage from './components/BlogPostListPage'
-import { createContext, useContext, useEffect, useRef } from 'react'
+import { createContext, useContext, useRef } from 'react'
 
 // 主题全局状态
 const ThemeGlobalHexo = createContext()
