@@ -275,7 +275,8 @@ const LayoutTagIndex = props => {
   const { tagOptions } = props
   const { locale } = useGlobal()
   return (
-        <div className='container mx-auto'>
+        <div className='grow mt-20'>
+            <Banner title='标签' description='按照文章的Tag分类'/>
             <Card className='grow mt-20'>
                 <div className="dark:text-gray-200 mb-5 ml-4">
                     <i className="mr-4 fas fa-tag" /> {locale.COMMON.TAGS}:
