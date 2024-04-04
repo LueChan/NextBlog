@@ -297,10 +297,16 @@ const LayoutTagIndex = props => {
  * @returns
  */
 const LayoutPostList = (props) => {
-  return <div className='pt-8'>
+  return 
+  <div className='grow mt-20'>
+  <div className="container mx-auto">
+    <Banner title='标签' description='按照文章的Tag分类'/>
+      <div className='pt-8'>
         <SlotBar {...props} />
         {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}
+      </div>
     </div>
+  </div>
 }
   
 /**
