@@ -297,7 +297,7 @@ const LayoutTagIndex = props => {
  * @returns
  */
 const LayoutPostList = (props) => {
-  return 
+  return (
   <div className='grow mt-20'>
   <div className="container mx-auto">
     <Banner title='博文列表' description='按照文章的Tag分类'/>
@@ -307,6 +307,7 @@ const LayoutPostList = (props) => {
       </div>
     </div>
   </div>
+  )
 }
   
 /**
