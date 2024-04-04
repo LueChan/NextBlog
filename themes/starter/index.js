@@ -247,12 +247,11 @@ const LayoutCategoryIndex = props => {
   return (
         <div className='grow mt-20'>
           <div className="container mx-auto">
-          <Banner title='分类' description='按照文章的Category分类'/>
-            <div className="w-full min-h-screen">
-                <div className="dark:text-gray-200 mb-5 mx-3">
+              <Banner title='分类' description='按照文章的Category分类'/>
+              <div className="dark:text-gray-200 mb-5 mx-3">
                     <i className="mr-4 fas fa-th" />  {locale.COMMON.CATEGORY}:
-                </div>
-                <div id="category-list" className="duration-200 flex flex-wrap mx-8">
+              </div>
+              <div id="category-list" className="duration-200 flex flex-wrap mx-8">
                     {categoryOptions?.map(category => {
                       return (
                             <Link key={category.name} href={`/category/${category.name}`} passHref legacyBehavior>
@@ -262,8 +261,7 @@ const LayoutCategoryIndex = props => {
                             </Link>
                       )
                     })}
-                </div>
-            </div>
+              </div>
           </div>
         </div>
   )
