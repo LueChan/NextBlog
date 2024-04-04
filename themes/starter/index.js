@@ -172,9 +172,12 @@ const LayoutSearch = props => {
 
   return (
         <div className='pt-8'>
+            <div className="container mx-auto">
+            <Banner title='标签' description='按照文章的Tag分类'/>
             {!currentSearch
               ? <SearchNav {...props} />
               : <div id="posts-wrapper"> {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}  </div>}
+            </div>
         </div>
   )
 }
