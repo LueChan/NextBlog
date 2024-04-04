@@ -135,16 +135,22 @@ const LayoutSlug = (props) => {
     </>
 }
 
+
+
 /**
- * 搜索页
+ * 搜索
+ * @param {*} props
+ * @returns
  */
 const LayoutSearch = props => {
   const { keyword } = props
   const router = useRouter()
+  const currentSearch = keyword || router?.query?.s
+
   useEffect(() => {
-    if (isBrowser) {
+    if (currentSearch) {
       replaceSearchResult({
-        doms: document.getElementById('posts-wrapper'),
+        doms: document.getElementsByClassName('replace'),
         search: keyword,
         target: {
           element: 'span',
@@ -152,8 +158,15 @@ const LayoutSearch = props => {
         }
       })
     }
-  }, [router])
-  return <LayoutPostList {...props} />
+  })
+
+  return (
+        <div className='pt-8'>
+            {!currentSearch
+              ? <SearchNav {...props} />
+              : <div id="posts-wrapper"> {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}  </div>}
+        </div>
+  )
 }
 
 /**
@@ -247,8 +260,63 @@ const LayoutCategoryIndex = (props) => {
     </>
   )
 }
+
+
+/**
+ * 分类列表
+ * @param {*} props
+ * @returns
+ */
+const LayoutCategoryIndex = props => {
+  const { categoryOptions } = props
+  const { locale } = useGlobal()
+  return (
+        <div className='mt-8'>
+            <Card className="w-full min-h-screen">
+                <div className="dark:text-gray-200 mb-5 mx-3">
+                    <i className="mr-4 fas fa-th" />  {locale.COMMON.CATEGORY}:
+                </div>
+                <div id="category-list" className="duration-200 flex flex-wrap mx-8">
+                    {categoryOptions?.map(category => {
+                      return (
+                            <Link key={category.name} href={`/category/${category.name}`} passHref legacyBehavior>
+                                <div className={' duration-300 dark:hover:text-white px-5 cursor-pointer py-2 hover:text-indigo-400'}>
+                                    <i className="mr-4 fas fa-folder" />  {category.name}({category.count})
+                                </div>
+                            </Link>
+                      )
+                    })}
+                </div>
+            </Card>
+        </div>
+  )
+}
+
+/**
+ * 标签列表
+ * @param {*} props
+ * @returns
+ */
+const LayoutTagIndex = props => {
+  const { tagOptions } = props
+  const { locale } = useGlobal()
+  return (
+        <div className='mt-8'>
+            <Card className='w-full'>
+                <div className="dark:text-gray-200 mb-5 ml-4">
+                    <i className="mr-4 fas fa-tag" /> {locale.COMMON.TAGS}:
+                </div>
+                <div id="tags-list" className="duration-200 flex flex-wrap ml-8">
+                    {tagOptions.map(tag => <div key={tag.name} className="p-2">
+                        <TagItemMini key={tag.name} tag={tag} />
+                    </div>)}
+                </div>
+            </Card>
+        </div>
+  )
+}
+
 const LayoutPostList = (props) => <></>
-const LayoutTagIndex = (props) => <></>
 
 /**
  * 登录页面
