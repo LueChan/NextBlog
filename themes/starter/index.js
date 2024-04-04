@@ -145,43 +145,6 @@ const LayoutSlug = (props) => {
     </>
 }
 
-
-
-/**
- * 搜索
- * @param {*} props
- * @returns
- */
-const LayoutSearch = props => {
-  const { keyword } = props
-  const router = useRouter()
-  const currentSearch = keyword || router?.query?.s
-
-  useEffect(() => {
-    if (currentSearch) {
-      replaceSearchResult({
-        doms: document.getElementsByClassName('replace'),
-        search: keyword,
-        target: {
-          element: 'span',
-          className: 'text-red-500 border-b border-dashed'
-        }
-      })
-    }
-  })
-
-  return (
-        <div className='pt-8'>
-            <div className="container mx-auto">
-            <Banner title='标签' description='按照文章的Tag分类'/>
-            {!currentSearch
-              ? <SearchNav {...props} />
-              : <div id="posts-wrapper"> {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}  </div>}
-            </div>
-        </div>
-  )
-}
-
 /**
  * 文章归档
  * @param {*} props
@@ -237,6 +200,41 @@ const Layout404 = (props) => {
         {/* <!-- ====== 404 Section End --> */}
 
     </>
+}
+
+/**
+ * 搜索
+ * @param {*} props
+ * @returns
+ */
+const LayoutSearch = props => {
+  const { keyword } = props
+  const router = useRouter()
+  const currentSearch = keyword || router?.query?.s
+
+  useEffect(() => {
+    if (currentSearch) {
+      replaceSearchResult({
+        doms: document.getElementsByClassName('replace'),
+        search: keyword,
+        target: {
+          element: 'span',
+          className: 'text-red-500 border-b border-dashed'
+        }
+      })
+    }
+  })
+
+  return (
+        <div className='pt-8'>
+            <div className="container mx-auto">
+            <Banner title='搜索' description='输入关键词检索站内文章'/>
+            {!currentSearch
+              ? <SearchNav {...props} />
+              : <div id="posts-wrapper"> {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}  </div>}
+            </div>
+        </div>
+  )
 }
 
 /**
