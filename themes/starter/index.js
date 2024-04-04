@@ -43,6 +43,7 @@ import SearchNav from './components/SearchNav'
 import BlogPostListPage from './components/BlogPostListPage'
 import { createContext, useContext, useRef } from 'react'
 import TagItemMini from './components/TagItemMini'
+import SlotBar from './components/SlotBar'
 
 // 主题全局状态
 const ThemeGlobalHexo = createContext()
