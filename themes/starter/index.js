@@ -226,7 +226,7 @@ const LayoutSearch = props => {
   })
 
   return (
-        <div className='pt-8'>
+        <div className='grow mt-20'>
             <div className="container mx-auto">
             <Banner title='搜索' description='输入关键词检索站内文章'/>
             {!currentSearch
