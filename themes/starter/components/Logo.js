@@ -41,7 +41,7 @@ export const Logo = ({ white }) => {
     }
   }, [isDarkMode, router])
 
-  return <div className="w-60 max-w-full px-4">
+  return <div className="w-24 max-w-full px-4">
         <div className="navbar-logo flex items-center w-full py-5 cursor-pointer">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             {logo && <img
