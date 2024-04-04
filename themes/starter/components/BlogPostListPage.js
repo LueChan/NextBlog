@@ -18,7 +18,7 @@ const BlogPostListPage = ({ page = 1, posts = [], postCount, siteInfo }) => {
     return <BlogPostListEmpty />
   } else {
     return (
-      <div id="container" className='w-full'>
+      <div id="container" className='container mx-auto'>
         {/* 文章列表 */}
         <div className="space-y-6 px-2">
           {posts?.map(post => (
