@@ -96,22 +96,8 @@ const LayoutIndex = (props) => {
         {siteConfig('STARTER_HERO_ENABLE', null, CONFIG) && <Hero/>}
         {/* 产品特性 */}
         {siteConfig('STARTER_FEATURE_ENABLE', null, CONFIG) && <Features/>}
-        {/* 关于 */}
-        {siteConfig('STARTER_ABOUT_ENABLE', null, CONFIG) && <About/>}
-        {/* 价格 */}
-        {siteConfig('STARTER_PRICING_ENABLE', null, CONFIG) && <Pricing/>}
-        {/* 评价展示 */}
-        {siteConfig('STARTER_TESTIMONIALS_ENABLE', null, CONFIG) && <Testimonials/>}
-        {/* 常见问题 */}
-        {siteConfig('STARTER_FAQ_ENABLE', null, CONFIG) && <FAQ/>}
-        {/* 团队介绍 */}
-        {siteConfig('团队成员区块', null, CONFIG) && <Team/>}
         {/* 博文列表 */}
         {siteConfig('STARTER_BLOG_ENABLE', null, CONFIG) && <Blog posts={posts}/>}
-        {/* 联系方式 */}
-        {siteConfig('STARTER_CONTACT_ENABLE', null, CONFIG) && <Contact/>}
-        {/* 合作伙伴 */}
-        {siteConfig('STARTER_BRANDS_ENABLE', null, CONFIG) && <Brand/>}
         </>
   )
 }
