@@ -23,7 +23,7 @@ export default function SearchNav(props) {
     <div className="my-6 px-2">
         <SearchInput cRef={cRef} {...props} />
         {/* 分类 */}
-        <Card className="w-full mt-4">
+        <div className="w-full mt-4">
             <div className="dark:text-gray-200 mb-5 mx-3">
                 <i className="mr-4 fas fa-th" />
                 {locale.COMMON.CATEGORY}:
@@ -48,9 +48,9 @@ export default function SearchNav(props) {
                   )
                 })}
             </div>
-        </Card>
+        </div>
         {/* 标签 */}
-        <Card className="w-full mt-4">
+        <div className="w-full mt-4">
             <div className="dark:text-gray-200 mb-5 ml-4">
                 <i className="mr-4 fas fa-tag" />
                 {locale.COMMON.TAGS}:
@@ -64,7 +64,7 @@ export default function SearchNav(props) {
                   )
                 })}
             </div>
-        </Card>
+        </div>
     </div>
 </>
 }
