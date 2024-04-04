@@ -10,7 +10,7 @@ const BlogPostListEmpty = ({ currentSearch }) => {
   return (
     <div className='grow mt-20'>
     <div className="container mx-auto">  
-      <div className='flex w-full items-center justify-center min-h-screen mx-auto md:-mt-20'>
+      <div className='flex w-full items-center justify-center mx-auto md:-mt-20'>
         <div className='text-gray-500 dark:text-gray-300'>{locale.COMMON.NO_MORE} {(currentSearch && <div>{currentSearch}</div>)}</div>
       </div>
     </div>
