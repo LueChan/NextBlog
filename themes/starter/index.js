@@ -151,7 +151,7 @@ const Layout404 = (props) => {
   return <>
      {/* <!-- ====== 404 Section Start --> */}
         <section className="bg-white py-20 dark:bg-dark-2 lg:py-[110px]">
-          <div className="container mx-auto">
+          <div className="container min-h-screen mx-auto">
             <div className="flex flex-wrap items-center -mx-4">
               <div className="w-full px-4 md:w-5/12 lg:w-6/12">
                 <div className="text-center">
@@ -214,7 +214,7 @@ const LayoutSearch = props => {
 
   return (
         <div className='grow mt-20'>
-            <div className="container mx-auto">
+            <div className="container min-h-screen mx-auto">
             <Banner title='搜索' description='输入关键词检索站内文章名称'/>
             {!currentSearch
               ? <SearchNav {...props} />
@@ -288,8 +288,8 @@ const LayoutTagIndex = props => {
 const LayoutPostList = (props) => {
   return (
   <div className='grow mt-20'>
-  <div className="container mx-auto">
-    <Banner title='博文列表' description='按照文章的Tag分类'/>
+  <div className="container min-h-screen mx-auto">
+    <Banner title='博文列表' description='按照文章的Category分类'/>
       <div className='pt-8'>
         <SlotBar {...props} />
         {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}
