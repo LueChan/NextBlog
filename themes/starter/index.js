@@ -338,7 +338,5 @@ export {
   Layout404,
   LayoutPostList,
   LayoutCategoryIndex,
-  LayoutTagIndex,
-  LayoutSignIn,
-  LayoutSignUp
+  LayoutTagIndex
 }
