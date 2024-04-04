@@ -44,7 +44,7 @@ export const Logo = ({ white }) => {
   return <div className="w-24 max-w-full px-4">
         <div className="navbar-logo flex items-center w-full py-5 cursor-pointer">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            {logo && <img
+            {logo && <img className='mr-2'
                 onClick={() => {
                   router.push('/')
                 }}
