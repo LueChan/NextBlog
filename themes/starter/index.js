@@ -42,6 +42,7 @@ import Card from './components/Card'
 import SearchNav from './components/SearchNav'
 import BlogPostListPage from './components/BlogPostListPage'
 import { createContext, useContext, useRef } from 'react'
+import TagItemMini from './components/TagItemMini'
 
 // 主题全局状态
 const ThemeGlobalHexo = createContext()
