@@ -289,8 +289,18 @@ const LayoutTagIndex = props => {
   )
 }
 
-const LayoutPostList = (props) => <></>
-
+/**
+ * 博客列表
+ * @param {*} props
+ * @returns
+ */
+const LayoutPostList = (props) => {
+  return <div className='pt-8'>
+        <SlotBar {...props} />
+        {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}
+    </div>
+}
+  
 /**
  * 登录页面
  * @param {*} props
