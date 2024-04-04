@@ -14,9 +14,9 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: '深入浅出HarmonyOS应用开发', // 英雄区文字
   STARTER_HERO_TITLE_2: '写给有移动应用开发经验的从业者', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '开始了解', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: 'https://www.luechan.com/archive', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
