@@ -34,22 +34,22 @@ const CONFIG = {
   STARTER_FEATURE_1_TITLE_1: 'ArkTS', // 特性1
   STARTER_FEATURE_1_TEXT_1: 'JS是TS的子集，TS是ArkTS的子集', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://www.luechan.com/archive', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: 'ArkUI', // 特性2
   STARTER_FEATURE_2_TEXT_1: '常用容器组件、List组件、Grid组件等', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL: 'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+  STARTER_FEATURE_2_BUTTON_URL: 'https://www.luechan.com/archive', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '进阶之路', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '高级特性', // 特性3
   STARTER_FEATURE_3_TEXT_1: '数据库、网络、三方库、Preferenes等', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://www.luechan.com/archive', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: 'DFX能力', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '性能、功耗、一次开发，多段部署、自由流转、运维打点等', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'DFX', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '性能、功耗、一多、流转、打点等', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://www.luechan.com/archive', // 特性4
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
