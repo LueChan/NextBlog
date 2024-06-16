@@ -58,7 +58,7 @@ const CONFIG = {
   STARTER_BLOG_TEXT_1: '最新文章',
   STARTER_BLOG_TEXT_2: '一些关于HarmonyOS的系列文章、开发动态等',
 
-  STARTER_FOOTER_SLOGAN: '略馋，曾经养过的一只猫',
+  STARTER_FOOTER_SLOGAN: '略馋，是曾经养过的一只猫',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
